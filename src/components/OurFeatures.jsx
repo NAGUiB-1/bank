@@ -35,7 +35,7 @@ const OurFeatures = () => {
       </p>
       <div className="flex flex-col md:flex-row gap-4 my-8">
         <div
-          className="flex flex-row md:flex-col md:w-[20%] bg-[#1c1c1c] p-6 rounded-lg border h-fit gap-4 items-start md:items-center justify-center overflow-x-auto "
+          className="flex flex-row md:flex-col md:w-[20%] bg-[#1c1c1c] p-6 rounded-lg border h-fit gap-4 items-center justify-start md:justify-center overflow-x-auto "
           data-aos="flip-up"
         >
           <button className={buttonStyle + active}>Online Banking</button>
